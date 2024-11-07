@@ -1,5 +1,5 @@
 .menu-cabecera{
-    background-color:#BE1622;
+    background-color:#A4CDD7;
     width: 100%;
 }
 *{
@@ -10,6 +10,12 @@
     background-color: #ff7d60;
     width: 100%;
     height: 120px;
+    background-image: url("../imagenes/pngtree-cartoon-hand-drawn-education-infographic-illustration-png-image_2200325.jpg");
+        width: 100%;
+        height: 1000px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y:  50%;
 }
     .CajaColumna{
         display: flex;
@@ -30,5 +36,29 @@
     }
     .ColorCeleste{
         background-color: rgb(77, 169, 250);
+    }
+    .menuSuperior li{
+        display: inline;
+        padding: 2px;
+        border-right: solid 2px rgb(24, 38, 231);
+    }
+    .menuSuperior{
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: right;
+        padding: 15px;
+    }
+    .menuSuperior a:hover{
+        color: #E2430C;
+        text-decoration: underline;
+    }
+    li a{
+        text-decoration: none;
+    }
+    .menuSuperior li:last-child{
+        border-right: none;
+    }
+    .menuSuperior{
+        padding: 20px;
     }
     
